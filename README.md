@@ -46,8 +46,8 @@ A production-ready AI system for predicting US and Japanese stock prices using s
 
 ```bash
 # Clone the repository (when available on GitHub)
-git clone https://github.com/yourusername/finance-ai-predictor.git
-cd finance-ai-predictor
+git clone https://github.com/yourusername/timeseries_for_fun.git
+cd timeseries_for_fun
 
 # Make startup script executable
 chmod +x start_app.sh
@@ -259,9 +259,6 @@ Contributions are welcome! Please:
 
 **IMPORTANT**: This system is for educational and research purposes only. Stock predictions are inherently uncertain. Never invest money you cannot afford to lose. Always conduct your own research and consider consulting with financial advisors before making investment decisions.
 
-## 📄 License
-
-MIT License - See LICENSE file for details
 
 ## 🙏 Acknowledgments
 
@@ -271,13 +268,3 @@ MIT License - See LICENSE file for details
 - Yahoo Finance for market data
 - Streamlit for the UI framework
 
-## 📞 Support
-
-For issues or questions:
-- Open an issue on GitHub
-- Check existing issues for solutions
-- Review the troubleshooting section
-
----
-
-**Built with ❤️ for the finance and AI community**
