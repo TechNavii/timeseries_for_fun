@@ -1,0 +1,200 @@
+# Environment variables - IMPORTANT: Contains API keys
+.env
+.env.local
+.env.production
+.env.*.local
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.manifest
+*.spec
+
+# Virtual Environments
+venv/
+ENV/
+env/
+.venv
+.ENV
+env.bak/
+venv.bak/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+stock_prediction.db
+*.db-journal
+*.db-wal
+
+# Logs
+*.log
+logs/
+*.log.*
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Testing
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# Data files (keep structure but not data)
+data/*.csv
+data/*.json
+data/*.xlsx
+!data/.gitkeep
+
+# Model files
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.hdf5
+models/*.model
+*.pkl
+*.pickle
+*.joblib
+checkpoints/
+*.ckpt
+
+# ML/AI Model weights
+*.safetensors
+*.bin
+*.pt
+*.pth
+chronos-models/
+patchtst-models/
+transformer-models/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup
+~*
+
+# OS files
+Thumbs.db
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+desktop.ini
+.AppleDouble
+.LSOverride
+Icon
+.DocumentRevisions-V100
+.fseventsd
+.TemporaryItems
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Cache
+.cache/
+*.pyc
+
+# Background process files
+nohup.out
+*.pid
+
+# Documentation build & LLM artifacts
+docs/_build/
+docs/.doctrees/
+site/
+AGENTS.md
+agents/
+*.agents.log
+
+# Package files
+*.tar.gz
+*.zip
+*.7z
+*.rar
+
+# Redis
+dump.rdb
+redis-data/
+
+# API Keys and Secrets (redundant but important)
+secrets.json
+secrets.yaml
+config/secrets.py
+*_secrets.py
+api_keys.txt
+
+# Research and experiments
+research/
+experiments/
+notebooks/research/
+scratch/
+
+# YouTube documentation and video materials
+youtube/
+youtube/*
+*.mp4
+*.mov
+*.avi
+video_scripts/
+video_materials/
+
+# Node (if any JS tools used)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Monitoring
+grafana/
+prometheus/
