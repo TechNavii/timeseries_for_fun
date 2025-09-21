@@ -1,4 +1,4 @@
-# AI Stock Prediction System 📈
+# AI Timeseries Prediction System 📈
 
 A production-ready AI system for predicting US and Japanese stock prices using state-of-the-art machine learning and transformer models.
 
